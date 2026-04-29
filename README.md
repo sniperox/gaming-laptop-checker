@@ -1,6 +1,6 @@
 # Gaming Laptop Checker
 
-Professional Windows QC benchmark launcher for gaming laptops. The project packages into a single `GamingLaptopChecker.exe` that opens a green-on-black MAS-style terminal menu, runs selected hardware checks, and produces self-contained HTML and JSON reports.
+Windows QC benchmark launcher for gaming laptops. The project packages into a single `GamingLaptopChecker.exe` that opens a green-on-black MAS-style terminal menu, runs selected hardware checks, and produces self-contained HTML and JSON reports.
 
 > This tool is for laptop quality checking and benchmarking only. It does not activate Windows or modify Windows licensing.
 
