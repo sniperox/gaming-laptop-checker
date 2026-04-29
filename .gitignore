@@ -1,0 +1,17 @@
+tools/
+output/
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+python_setup.exe
+git_setup.exe
+*.zip
+*.7z
+*.msi
+*.exe
+!bootstrap.bat
