@@ -9,7 +9,7 @@ Windows QC benchmark launcher for gaming laptops. The project packages into a si
 Paste this one line into PowerShell on the laptop you want to test:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/sniperox/gaming-laptop-checker/main/bootstrap.bat -OutFile $env:TEMP\glc.bat; Start-Process cmd -ArgumentList '/c %TEMP%\glc.bat' -Verb RunAs"
+powershell -nop -ep bypass -c "$b='$env:TEMP\glc.bat';irm https://raw.githubusercontent.com/sniperox/gaming-laptop-checker/main/bootstrap.bat -OutFile $b;start cmd -ArgumentList \"/c $b\" -Verb RunAs"
 ```
 
 The tested laptop does not need an IDE, Git, source ZIP extraction, a Python virtual environment, or `pip install`. The bootstrap downloads only the release EXE and launches it in a styled `cmd.exe` window.
